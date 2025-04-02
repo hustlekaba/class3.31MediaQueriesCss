@@ -13,6 +13,7 @@ body{
     background-color: rgb(196, 130, 50);
     padding: 20px;
     border-top: solid 5px black ;
+    
 }
 .header > a {
     padding: 10px;
@@ -42,6 +43,33 @@ body{
    
   
 }
+
+/** RESEAUX **/
+.reseaux
+{
+   display: grid;
+   grid-template-columns: 5fr 5fr;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-bottom: solid 5px black ;
+   
+}
+.reseaux > h1
+{
+    text-align: end;
+}
+
+div > a
+{
+    background-color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    border-bottom: solid 5px black ;
+}
+
 /** GRID  **/
 .section1
 {
@@ -72,7 +100,7 @@ body{
  
 }
 
-.btton
+.button-big
 {
     background-color: rgb(196, 130, 50);
     padding: 10px;
